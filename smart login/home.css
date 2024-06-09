@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-color: #24353f;
+}
+.header{
+    
+    height: 60px;
+    width: 100%;
+    position: relative;
+    box-shadow: 5px 5px 15px 5px rgb(36, 9, 9);
+}
+h1{
+    position: absolute;
+    left: 10%;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: 10px;
+}
+.header button{
+    position: absolute;
+    left: 85%;
+    top: 8px;
+    padding: 13px;
+    color: gray;
+    border: 1px gold solid;
+    background-color: #24353f;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 4px;
+}
+.header button:hover{
+   background-color: gold;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.name{
+    color:#2596be;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75%;
+    box-shadow: 5px 5px 15px 5px rgb(36, 9, 9);
+    height: 100px;
+    position: absolute;
+    left: 12.5%;
+    top: 40%;
+    text-align: center;
+    line-height: 100px;
+
+}
+@media (max-width: 480px) {
+   .header button {
+        padding: 5px;
+    }
+}
